@@ -4,9 +4,11 @@
 package org.example
 
 fun nombre(){
-    val nombre = "mateo"
-    val fecha = "22/04"
-    println("$nombre, $fecha")
+    val nombre: String = "mateo"
+    val fecha: Double = 22.04
+    val años: Int = 16
+    val esEstudiante: Boolean = true
+    println("$nombre, $fecha, $años, $esEstudiante")
 }
 fun main() {
     nombre()
